@@ -1,0 +1,17 @@
+Table content for dataAll.csv 
+
+nPar			the number of participants (0~23)
+nB			the number of block (1~10)
+nT			the number of trial in each block (1~56)
+curTask		the task of current trial (reproduction or following)
+rpr			the reproduced duration (current report) on the current trial (being 0 when current task is follow)
+flw			the followed duration (current report) on the current trial (being 0 when current task is reproduction)
+curPreCueDur		the duration of pre-cue stimuli on follow-task trials (being NaN when current trial is reproduction)
+curRpt			the current report (‘rpr’ for reproduction trials and ‘flw’ for follow trials)
+preTask			the task of previous n-1 trial (being NaN in the first trial of each block)
+preDur			the duration of previous n-1 trial (being NaN in the first trial of each block)
+preRpt			the report (either ‘rpr’ or ‘flw’) of previous n-1 trial (being NaN in the first trial of each block)
+prePreCueDur		the duration of pre-cue stimuli on a previous n-1 trial when its task is follow
+flwOnLtc			the onset latency of giving a follow response (negative values = press earlier than Gabor onset)
+flwOffLtc		the offset latency of ending a follow response (negative values = release earlier than Gabor offset)
+flwAfterOff		if the follow response starts later than the Gabor offset (True=late start could be removed, False=normal start)
